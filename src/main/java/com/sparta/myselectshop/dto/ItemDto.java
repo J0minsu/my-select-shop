@@ -13,6 +13,6 @@ public class ItemDto {
 
     public ItemDto(JSONObject itemJson) {
         this.title = itemJson.getString("title");
-        this.price = itemJson.getInt("price");
+        this.price = itemJson.getInt("lprice");
     }
 }
